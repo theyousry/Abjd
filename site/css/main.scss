@@ -1,0 +1,81 @@
+
+body{
+  direction: rtl;
+}
+.navbar-default {
+  height: 100px;
+}
+
+.navbar-nav {
+  margin-top: 30px;
+  font-size: xx-large;
+  font-family: 'Cairo', sans-serif;
+
+}
+.navbar-toggle {
+  margin-top: 47px;
+}
+.navbar-default {
+    background-color: #0b244e;
+    border-color: #2980b9;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.signin {
+  background-color: #2980B9;
+  border-radius: 9%;
+}
+
+html,body {
+  height:100%;
+  direction: rtl;
+}
+a{
+
+  font-size: x-large;
+}
+.navbar-brand img{
+  height: 100px;
+  filter: drop-shadow(2px 0px 50px #ffffff);
+}
+
+.header {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background:url('../images/001.jpg') no-repeat top center;
+
+}
+
+
+
+.affix {
+  transition:padding 0.2s ease-out;
+
+}
+
+@media (min-width:768px) {
+  .affix-top {
+    /* navbar style at top */
+    background:rgba(255, 255, 255, 0.1);
+    border-color:transparent;
+    padding: 3px;
+    transition:all 0.5s ease;
+  }
+}
+
+.affix-top .nav>li>a {
+  color: #ffffff;
+}
+
+.affix-top.navbar .nav>li>a:hover,
+.affix-top.navbar .navbar-brand
+{
+  color: #ffffff;
+}
+
+section {
+  height:calc(90% - 50px);
+  height: 90vh;
+}
