@@ -1,5 +1,5 @@
 $('#nav').affix({
-      offset: {
-        top: $('#heeey').offset().top
-      }
+  offset: {
+    top: $('#heeey').offset().top
+  }
 });
