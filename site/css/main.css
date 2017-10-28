@@ -322,7 +322,7 @@ padding: 5%;
     }
 
 }
-}
+
 @media (max-width: 412px){
     .search-group {
         position: relative;
@@ -334,7 +334,16 @@ padding: 5%;
     }
     
 }
+@media (max-width: 414px)
 
+{.search-group {
+    position: relative;
+    /* display: inline-flex; */
+    width: 89%;
+    padding: 5%;
+    margin-right: -17px;
+    margin-top: 42px;
+}}
 
 
 
