@@ -122,27 +122,27 @@ border-color: #2980b9;
 border-bottom: 2px solid #2980b9 }
 
 .navbar-nav {
-margin-top: 30px;
-font-size: xx-large; }
+    margin-top: 30px;
+    font-size: xx-large; }
 
 .navbar-toggle {
-margin-top: 47px;
+   margin-top: 47px;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #2980b9;
 }
 
 .navbar-default .navbar-nav > li > a {
-color: #fff; }
+    color: #fff; }
 
 .signin {
-background-color: #2980B9;
-border-radius: 9%; }
+    background-color: #2980B9;
+    border-radius: 9%; }
 
 .signin:hover {
-background-color: #4FD1D9;
-color:#fff;
-transition: all 0.5s ease-in-out;
+    background-color: #4FD1D9;
+    color:#fff;
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -205,28 +205,32 @@ overflow: overlay;
 }
 /* intro start */
 .intro {
-    margin: 106px 0;
+    margin: 5px 0;
+    height: 140px;
 }
 .intro img{
-    height: 197px;
+    height: 140px;
 }
 
 
 .intro h1{
    
-    margin: 50px 70px  0 ;
-    font-size: 72px;    
+    margin: 10px 70px  0 ;
+    font-size: 40px;    
 }
  .learn h1{
-    font-size: 40px;
-    margin-bottom: -37px;
+    font-size: 30px;
+    margin-bottom: -40px;
+    margin-top:60px
 }
 .intro span{
     color:#2980B9;
     
 }
  intro h3 {
-        margin-bottom: -30px;
+     
+     margin-bottom:-45px;
+      
  }
 
 /*intro end*/
@@ -248,7 +252,7 @@ overflow: overlay;
 @media (max-width: 768px){
     .intro h1 {
         margin: 43px 59px 0;
-        font-size: 38px;}
+        font-size: 30px;}
      .intro img {
             height: 184px;
         }
@@ -258,19 +262,19 @@ overflow: overlay;
 /*search bar*/
 
 .header .search {
-padding-top:150px;
-width: 100%;
-/*min-height: 300px;*/
-font-size: 25px;
-color: white;
-font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    padding-top:130px;
+    width: 100%;
+    /*min-height: 300px;*/
+    color: white;
+    font-family: 'Cairo', sans-serif;
 }
 #search-input{
-margin:auto;
-/*padding: 3px;*/
-border: solid 1px #E4E4E4;
-border-radius: 6px;
-background-color: #fff;
+    margin:auto;
+    /*padding: 3px;*/
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
 }
 
 #search-input input{
@@ -296,10 +300,10 @@ border-right: solid 1px #ccc;
 
 
 .search-group {
-position:relative;
-/*display:inline-flex;*/
-width: 100%;
-padding: 5%;
+    position:relative;
+    /*display:inline-flex;*/
+    width: 100%;
+    padding: 5%;
 }
 @media (max-width: 768px){
     .search-group {
@@ -308,7 +312,7 @@ padding: 5%;
         width: 89%;
         padding: 5%;
         margin-right: 83px;
-        margin-top: 42px;
+        margin-top: 30px;
     }
 }
 @media(max-width:375px){
