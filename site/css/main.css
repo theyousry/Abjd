@@ -221,7 +221,7 @@ overflow: overlay;
  .learn h1{
     font-size: 30px;
     margin-bottom: -40px;
-    margin-top:60px
+    margin-top:90px
 }
 .intro span{
     color:#2980B9;
@@ -263,7 +263,7 @@ overflow: overlay;
 
 .header .search {
     font-size: 20px;
-    padding-top:130px;
+    padding-top:100px;
     width: 100%;
     /*min-height: 300px;*/
     color: white;
@@ -303,7 +303,7 @@ border-right: solid 1px #ccc;
     position:relative;
     /*display:inline-flex;*/
     width: 100%;
-    padding: 5%;
+    padding: 8%;
 }
 @media (max-width: 768px){
     .search-group {
