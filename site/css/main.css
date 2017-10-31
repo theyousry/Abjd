@@ -206,10 +206,14 @@ overflow: overlay;
 /* intro start */
 .intro {
     margin: 5px 0;
-    height: 140px;
+    height: 170px;
+    margin-bottom: 21px;
 }
 .intro img{
-    height: 140px;
+    height: 170px;
+    vertical-align:middle;
+    margin-bottom: 18px
+    
 }
 
 
@@ -223,15 +227,22 @@ overflow: overlay;
     margin-bottom: -40px;
     margin-top:90px
 }
-.intro span{
+/*.intro span{
     color:#2980B9;
     
-}
- intro h3 {
+}*/
+.intro h3 {
      
      margin-bottom:-45px;
+     font-size: 23px;
+     margin-top: 0px
       
  }
+
+ .hello{ 
+     margin-left:-25px;
+    color: #fff;
+    }
 
 /*intro end*/
 .header::-webkit-scrollbar {
@@ -246,7 +257,7 @@ overflow: overlay;
 
 @media (max-width: 768px){
     .intro img {
-        height: 184px;
+        height: 170px;
     }
 }
 @media (max-width: 768px){
@@ -254,16 +265,17 @@ overflow: overlay;
         margin: 43px 59px 0;
         font-size: 30px;}
      .intro img {
-            height: 184px;
+            height: 170px;
         }
 
 }
+
 
 /*search bar*/
 
 .header .search {
     font-size: 20px;
-    padding-top:100px;
+    padding-top:80px;
     width: 100%;
     /*min-height: 300px;*/
     color: white;
@@ -303,7 +315,7 @@ border-right: solid 1px #ccc;
     position:relative;
     /*display:inline-flex;*/
     width: 100%;
-    padding: 8%;
+    padding: 7%;
 }
 @media (max-width: 768px){
     .search-group {
