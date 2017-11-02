@@ -531,7 +531,7 @@ padding:3px 15px;
 
 .footer .footer-links li a{
 color:#FFF;
-font-size:30px;
+font-size:27px;
 }
 .footer .footer-links li a:hover {
 color:#2980B9;
@@ -573,7 +573,7 @@ padding: 0 11px;
 @media (max-width:768px){
     .footer .footer-links li a {
         color: #FFF;
-        font-size: 26px;
+        font-size: 17px;
     }
 
 }
