@@ -195,7 +195,7 @@ background: url("../images/006.jpg") no-repeat top center;
 background: linear-gradient 
 (rgba(20, 20, 20, .5),
  rgba(20, 20, 20, .5)),  
- url("../images/001.jpg") no-repeat top center;
+ url("../images/00  .jpg") no-repeat top center;
 background-attachment: fixed;
 position: relative;
 border-bottom: 13px solid  #2980B9;
@@ -338,6 +338,28 @@ border-right: solid 1px #ccc;
     }
 
 }
+
+@media (max-width: 412px){
+    .search-group {
+        position: relative;
+        /* display: inline-flex; */
+        width: 89%;
+        padding: 5%;
+        margin-right: -19px;
+        margin-top: 42px;
+    }
+    
+}
+@media (max-width: 414px)
+
+{.search-group {
+    position: relative;
+    /* display: inline-flex; */
+    width: 89%;
+    padding: 5%;
+    margin-right: -17px;
+    margin-top: 42px;
+}}
 
 
 
