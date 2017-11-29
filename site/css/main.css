@@ -41,7 +41,7 @@ font-family: 'Cairo', sans-serif; }
 
 .navbar-default {
 height: 100px;
-background-color: #eee;
+background-color: #a5a5a5;
 border-color: #2980b9;
 border-bottom: 2px solid #2980b9; }
 
@@ -59,6 +59,17 @@ margin-top: 47px; }
 
 .navbar-default .navbar-nav > li > a {
 color: #fff; }
+
+.dropdown-menu{margin-left: -14px;}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a
+{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    padding: 9px;
+    
+}
 
 
 .signin {
@@ -475,7 +486,7 @@ border-bottom: 4px solid #666;
 }
 
 .courses-btn{
-width:100%;
+width:60%;
 padding: 15px;
 border: solid 1px #eee;
 border-radius: 6px;
@@ -483,12 +494,12 @@ background:rgba(41, 128, 185,0.9);
 color:#ffffff;
 font-size: x-large;
 margin-top:20px;
-margin-bottom:10px;
+margin-bottom:20px;
 }
 
 .courses-btn:hover{
 /*background:#959595;*/
-background: #4FD1D9;
+background:#4FD1D9;
 /*color:#2980b9;*/
 color:#ffffff;
 transition: all 0.5s ease-in-out;
