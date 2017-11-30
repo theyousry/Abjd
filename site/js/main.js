@@ -84,3 +84,13 @@ $('#nav').affix({
         $this.countTo(options);
       }
     });
+    
+$(document).ready(function(){
+        
+        $("#show").click(function(){
+            $("#last-row").show();
+            $("#show").hide();
+        });
+
+        
+  });

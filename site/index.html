@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="shortcut icon" type="image/x-icon" href="images/icon.ico">
-
-
 </head>
 <body>
   <!-- start navbar -->
@@ -21,7 +19,8 @@
       <div class="clearfix"></div>
 
       <a class="navbar-brand navbar-right" href="#">
-        <img alt="Brand" style="display: inline-block;  height: 800%; margin-top: -46px" src="images/Logo3.png">
+        <img alt="Brand" style="display:inline-block;  height: 800%; margin-top: -46px" src="images/Logo3.png">
+        
       </a>
       <div class="navbar-header">
         <!-- navbar collapsing -->
@@ -39,7 +38,7 @@
 
         <ul class="nav navbar-nav navbar-left">
           <li class="signin"><a href="sign-up.html">تسجيل <i class="fa fa-user"></i></a></li>
-          <li><a href="#">دخول <i class="fa fa-sign-in"></i></a></li>
+          <li><a href="log-in.html">دخول <i class="fa fa-sign-in"></i></a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">التصنيفات <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -109,7 +108,7 @@
 
       <div class="row">
 
-
+        <!-- first row -->
         <div class='col-lg-4 col-sm-6 wow slideInUp'data-wow-offset="200">
           <div class='category_box'>
             <div class='icon'>
@@ -161,7 +160,8 @@
             </div>
           </div>
         </div>
-
+        <!-- end first -->
+        <!-- sec row -->
         <div class='col-lg-4 col-sm-6 wow slideInUp'data-wow-offset="300">
           <div class='category_box'>
             <div class='icon'>
@@ -211,12 +211,66 @@
             </div>
           </div>
         </div>
-
-
-
+        <!-- end sec -->
+        <!-- third row -->
+        <div id="last-row" style="display:none">
+          <div class='col-lg-4 col-sm-6'>
+              <div class='category_box'>
+                <div class='icon'>
+                  <div class='image'></div>
+                  <div class='info'>
+                    <h3 class='title'><a href='#'> شبكات الحاسوب </a></h3>
+                    <p>                        
+                        تعتبر شبكات الحاسوب من الضروريات الحتمية في عالم الاتصالات السريعة اليوم، وتتنوع الشبكات وفقا لحجمها إلى ثلاثة أنواع رئيسية : LAN , WAN , RAN </p> <div class='more'>
+                      <a href='#' title='عرض ماتريل ومحتويات التصنيف'><i class='fa fa-plus'></i> عرض المواد
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class='col-lg-4 col-sm-6'>
+              <div class='category_box'>
+                <div class='icon'>
+                  <div class='image'></div>
+                  <div class='info'>
+                    <h3 class='title'><a href='#'> أمن المعلومات </a></h3>
+                    <p>
+                        أمن المعلومات هو العلم الذي يعمل على توفير الحماية للمعلومات من المخاطر التي تهددها أو الاعتداء عليها وذلك من خلال توفير الأدوات والوسائل النتائج بأقصر </p>
+                    <div class='more'>
+                      <a href='#' title='عرض ماتريل ومحتويات التصنيف'><i class='fa fa-plus'></i> عرض المواد
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class='col-lg-4 col-sm-6'>
+              <div class='category_box'>
+                <div class='icon'>
+                  <div class='image'></div>
+                  <div class='info'>
+                      <h3 class='title'><a href='#'> أنظمة تشغيل </a></h3>
+                      <p>                        
+                          نظام التشغيل هو مجموعة من البرمجيات المسؤولة عن إدارة الموارد (عتاد الحاسوب)، وبرمجيات الحاسوب، ويمثل وسيط بين المستخدم، وعتاد الحاسوب، ويمكن </p>
+                    <div class='more'>
+                      <a href='#' title='عرض ماتريل ومحتويات التصنيف'><i class='fa fa-plus'></i> عرض المواد
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end third -->
+          </div>
+          
+        </div>
       </div>
-      <br />
-      <a href="#" class="btn courses-btn wow tada" data-wow-duration="1.2s">المزيد من التصنيفات <i class="fa fa-angle-double-left fa-lg"></i></a>
+      <br/>
+      <a id="show" class="btn courses-btn wow tada "
+       data-wow-duration="1.2s">المزيد من التصنيفات <i class="fa fa-lg"></i></a>
 
 
     </div>
@@ -232,7 +286,7 @@
           <li><a href="#">عن أبجد</a></li>
           <li><a href="#">طلب كورس</a></li>
           <li><a href="#">سياسة الخصوصية</a></li>
-          <li><a href="#">تواصل معنا</a></li>
+          <li><a href="contant.html">تواصل معنا</a></li>
         </ul>
         <br>
         <ul class="list-unstyled social-icons">
@@ -250,16 +304,13 @@
     </div>
 
   </section>
-  <!-- start of footer -->
-
+  <!-- end of footer -->
 
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/wow.min.js"></script>
   <script> new WOW().init(); </script>
-
-  
 
 </body>
 </html>
