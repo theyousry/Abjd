@@ -1,0 +1,67 @@
+
+.navbar-default {
+
+  background-color:#959595;
+}
+
+.courses {
+  margin-top: 135px;
+  margin-bottom: 135px;
+}
+.courses h3 {
+  text-align: right;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.courses h3 a {
+  color: #2980B9;
+  font-weight: bolder;
+}
+.courses h3 a:hover {
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px)
+{
+  .navbar-nav {
+    margin-top: 28px;
+    padding: 15px;
+    background-color: #959595;
+  }
+  .navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    width: auto;
+    padding: 14px;
+
+  }
+  .signin {
+    width: 36%;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a
+  {
+    color: #fff;
+    text-align: right;
+    font-size: 18px;
+    padding: 9px;
+
+  }
+
+  .navbar-toggle {
+    width: 50px;
+    margin-top: 30px;
+  }
+
+
+}
+
+@media(max-width:375px) {
+
+  .navbar-toggle {
+    width: 50px;
+    margin-top: 30px;
+  }
+
+
+
+}
