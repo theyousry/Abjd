@@ -70,6 +70,12 @@
 }
   .side-form .side-form-content {
     padding: 10px 5px;
+    margin: 8px 30px;
+}
+.side-form .side-form-content h4 {
+
+    font-weight: bold;
+    line-height: 25px;
 }
 
 @media (max-width: 768px)
