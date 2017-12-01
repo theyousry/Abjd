@@ -51,33 +51,41 @@
 }
 .block .block-content li{
   font-size: x-large;
+  font-weight: bold;
+
 }
 
 .side-form {
-  border: 1px solid #ccc;
-  background: #fff;
-  border-radius: 0px;
-  margin-bottom: 45px;
+    border-radius: 0px;
 }
 
 .side-form .side-form-heading {
-  background: #2980b9;
-  color: #fff;
-  text-align: center;
+  color: #2980b9;;
+  text-align: right;
   padding: 10px 5px;
   font-size: 27px;
   font-weight: bolder;
 }
   .side-form .side-form-content {
     padding: 10px 5px;
-    margin: 8px 30px;
+    margin: 6px 0px 10px 0px;
+    text-align: justify;
 }
 .side-form .side-form-content h4 {
 
     font-weight: bold;
-    line-height: 25px;
+    line-height: 28px;
+    margin-top: -12px;
 }
+.courses-btn {
+width: 50%;
+    margin-bottom: 30px;
+    background: #2980b9;
+font-size: 27px;
+font-weight: bolder;
 
+
+}
 @media (max-width: 768px)
 {
   .navbar-nav {
