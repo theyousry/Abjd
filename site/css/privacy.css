@@ -1,0 +1,30 @@
+.privacy-cont
+{
+    padding-top:200px;
+    background-color:#fff;
+    width: 80% ;
+    margin: 200px auto;
+    border: 1px solid rgb(185, 182, 182) ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px   #ddd ;
+} 
+.privacy-cont h1 
+{
+    text-align: center;
+    margin-top: -140px
+
+}
+
+.category-name
+{
+    font-size: 18px;
+    font-weight:600;
+    
+}
+
+.privacy-cont p { 
+    font-size: 16px;
+    margin: 10px 0px ;
+    padding-right: 0px;
+    line-height: 1cm;
+}

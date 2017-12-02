@@ -4,19 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title> أبجد | تسجيل دخول  </title>
+  <title> أبجد | طلب كورس </title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/sign-up.css">
-
-  <style>
-
-    #forgetpass { 
-      font-size: 15px;
-      margin-right: 410px;}
-  </style>
-
+  <link rel="stylesheet" href="css/sign-up.css">  
   <link rel="stylesheet" href="css/animate.css">
   <link rel="shortcut icon" type="image/x-icon" href="images/icon.ico">
 
@@ -64,41 +56,48 @@
   </nav>
 
   <!-- end of navbar -->
- 
-  <!-- start form -->
-    <div class="form">
-        <h2> <i class="fa fa-sign-in"></i> تسجيل دخول  </h2>
 
-        <form action="/action_page.php" >
-            <div class="form-container">
+  <div class="form wow  bounceInUp ">
+    <h2> <i></i> طلب كورس  </h2>
 
-                  
-                    <label > البريد الإلكتروني </label>
-                    <input type="text" placeholder="ادخل البريد الإلكتروني " name="email" required>
+    <form action="/action_page.php" >
+        <div class="form-container">
+
+              
+                <label> البريد الإلكتروني </label>
+                <input type="text" name="email" required>
+
+                <label> نوع الكورس </label>
+
+                <select name="course-type" class="select-courseType"> 
+                  <option> البرمجة </option>
+                  <option> التصميم</option>
+                  <option> شبكات الحاسب</option>
+                  <option> علوم الحاسب </option>
+                  <option> قواعد البيانات </option>
+                  <option> تطوير الويب </option>                  
+                  <option> أنظمة التشغيل </option>
+                  <option> أمن المعلومات </option>
+                  <option> الإدراة </option>
+                  </select>
+
+                <label>  الكورس  </label>
+                <input type="text" name="req-course" required>
 
 
-                    <label>كلمة المرو ر </label>
-                    <input type="password" placeholder="ادخل كلمة المرور" name="psw" required>
-                
-                    
-                    <input type="checkbox" checked="checked" > تذكرني 
-                    <a href="#" id="forgetpass" >  هل نسيت كلمة المرور؟ </a>
+               
+                <button class="wow tada " data-wow-duration="1.2s" > اطلب  </button>
+        </div>
+    </form>
+  </div>
 
-                    <button type="submit" class="logbtn  wow tada " data-wow-duration="1.2s"> دخول </button>
-            </div>
-        </form>
-        <h4>   ليس لديك حساب ؟ <a href="sign-up.html"> سجل الان </a></h4>
-        
-    </div>    
-<!-- end form -->
-
- <!-- start of footer -->
- <section class="footer text-center">
+  <!-- start of footer -->
+  <section class="footer text-center">
     <div class="overlay">
       <div class="container">
         <ul class="list-unstyled footer-links">
           <li><a href="about.html">عن أبجد</a></li>
-          <li><a href="req-course.html">طلب كورس</a></li>
+          <li><a href="#">طلب كورس</a></li>
           <li><a href="privacy.html">سياسة الخصوصية</a></li>
           <li><a href="contact.html">تواصل معنا</a></li>
         </ul>
@@ -119,12 +118,12 @@
 
   </section>
   <!-- end of footer -->
+
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/wow.min.js"></script>
   <script> new WOW().init(); </script>
-
-
 
 </body>
 </html>

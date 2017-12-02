@@ -30,7 +30,7 @@
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password],textarea {
+input[type=text], input[type=password], textarea , .select-courseType{
     width: 95%;
     padding: 12px;
     margin: 15px;
@@ -43,6 +43,7 @@ textarea{
     height: 150px;
     border-style:solid;
     }
+
 
 /* Set a style for button */
 button {
