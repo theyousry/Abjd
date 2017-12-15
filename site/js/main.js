@@ -90,7 +90,6 @@ $(document).ready(function(){
         $("#show").click(function(){
             $("#last-row").show();
             $("#show").hide();
-        });
-
-        
+        }); 
   });
+
