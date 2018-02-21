@@ -23,12 +23,21 @@ h1
 {
    /* height: 300px;*/
    background: #fff;
-    width: 80%;
+    width: 65%;
     border: 1px solid rgb(185, 182, 182) ;
     border-radius: 10px;
     box-shadow: 5px 5px 2px   #ddd ;
     margin: 100px auto 70px ;
     
+
+}
+.about-abjd p 
+{
+    font-size: 30px;
+    padding: 40px;
+    margin: 30px;
+    line-height: 75px
+
 
 }
 
