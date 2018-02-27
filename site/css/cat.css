@@ -1,0 +1,42 @@
+h3
+{
+    margin: 181px 100px -73px;
+}
+
+.cont
+{
+    width: 85%;
+    margin: 150px auto;
+    background-color: #fff;
+    border: 1px solid  rgb(185, 182, 182);
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px   #ddd ;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.image {
+
+    position: relative;
+    width: 200px;
+    height: 183px;
+    margin: 40px auto;
+    border-radius: 10%;
+    background:url("../images/003.jpg" ) no-repeat;
+    }
+
+
+
+.info h3
+{
+    
+    margin: 50px 119px;
+    text-align: center;
+    color:#2980B9;
+}
+
+.info h3 a
+{    
+     text-decoration: none;
+
+}
