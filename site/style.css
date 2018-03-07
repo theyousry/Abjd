@@ -3,21 +3,21 @@
   font-family: 'Cairo';
   font-style: normal;
   font-weight: 400;
-  src: local('Cairo'), local('Cairo-Regular'), url(../fonts/cairo-arabic.woff2) format('woff2');
+  src: local('Cairo'), local('Cairo-Regular'), url(fonts/cairo-arabic.woff2) format('woff2');
 }
 /* latin-ext */
 @font-face {
   font-family: 'Cairo';
   font-style: normal;
   font-weight: 400;
-  src: local('Cairo'), local('Cairo-Regular'), url(../fonts/latin-ext.woff2) format('woff2');
+  src: local('Cairo'), local('Cairo-Regular'), url(fonts/latin-ext.woff2) format('woff2');
 }
 /* latin */
 @font-face {
   font-family: 'Cairo';
   font-style: normal;
   font-weight: 400;
-  src: local('Cairo'), local('Cairo-Regular'), url(../fonts/cairo-latin.woff2) format('woff2');
+  src: local('Cairo'), local('Cairo-Regular'), url(fonts/cairo-latin.woff2) format('woff2');
 }
 
 a {
