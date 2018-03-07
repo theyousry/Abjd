@@ -14,8 +14,42 @@ h3
     padding: 50px;
     overflow: hidden;
 }
+.row
+{
+    margin: 25px 60px ;
 
-.image {
+}
+.back-ground
+{   height: 200px;
+    width: 310px;
+    margin: 22px;
+    display: inline-block;
+    background:#2980B9;
+    color: #fff;
+    border-radius: 5%;
+    text-shadow: 2px 2px 4px #000;
+
+}
+
+.back-ground h3 
+{
+    text-align: center;
+    font-size: 50px;
+    margin: 73px ;
+    cursor: pointer;
+}
+.back-ground:hover
+{
+    background: #fff;
+    color: #2980B9;
+    text-shadow: none;
+}
+
+
+
+
+
+/*.image {
 
     position: relative;
     width: 200px;

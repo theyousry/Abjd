@@ -28,15 +28,13 @@ h1
     border-radius: 10px;
     box-shadow: 5px 5px 2px   #ddd ;
     margin: 100px auto 70px ;
+    font-size: 38px;
+    line-height: 60px;
+    padding: 55px;
     
 
 }
 
-.about-abjd img 
-{
-    height: 250px;
-    height:  250px;
-}
 
 hr { 
     border-width: 1px;
