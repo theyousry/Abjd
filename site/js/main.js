@@ -56,14 +56,14 @@ $('#nav').affix({
             });
         };
         $.fn.countTo.defaults = {
-            from: 0,             
-            to: 0,            
-            speed: 1000,         
-            refreshInterval: 100,  
-            decimals: 0,           
-            formatter: formatter,  
-            onUpdate: null,        
-            onComplete: null       
+            from: 0,
+            to: 0,
+            speed: 1000,
+            refreshInterval: 100,
+            decimals: 0,
+            formatter: formatter,
+            onUpdate: null,
+            onComplete: null
         };
         function formatter(value, settings) {
             return value.toFixed(settings.decimals);
@@ -77,19 +77,33 @@ $('#nav').affix({
           return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
         }
       });
-      $('.timer').each(count);  
+      $('.timer').each(count);
       function count(options) {
         var $this = $(this);
         options = $.extend({}, options || {}, $this.data('countToOptions') || {});
         $this.countTo(options);
       }
     });
-    
+
 $(document).ready(function(){
-        
+
         $("#show").click(function(){
             $("#last-row").show();
             $("#show").hide();
-        }); 
+        });
   });
-
+/**
+ *  Register service worker for offline viewing of site
+ */
+const registerServiceWorker = () => {
+  if (navigator.serviceWorker) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js')
+        .then(registration => console.log('ServiceWorker registration successful with scope: ', registration.scope))
+        .catch(err => console.log('ServiceWorker registration failed: ', err));
+    })
+  }
+}
+document.addEventListener('DOMContentLoaded', (event) => {
+  registerServiceWorker();
+});

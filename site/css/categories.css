@@ -30,7 +30,7 @@ h3
     text-shadow: 2px 2px 4px #000;
 
 }
-.back-ground h3 {   
+.back-ground h3 {
 
      margin: 74px 78px -73px;
      text-align: center;
@@ -51,6 +51,22 @@ h3
     background-color: #81818199
 }
 
+@media (max-width: 425px) {
+  .row {
+    margin: -20px 70px;
+}
+  .back-ground {
+      height: 188px;
+      width: 202px;
+      margin: 17px -82px 17px 50px;
+      display: inline-block;
+      background: #2980b9;
+      color: #fff;
+      border-radius: 5%;
+      text-shadow: 2px 2px 4px #000;
+      text-align: center;
+  }
+}
 
 
 /*.image {
@@ -67,14 +83,14 @@ h3
 
 .info h3
 {
-    
+
     margin: 50px 119px;
     text-align: center;
     color:#2980B9;
 }
 
 .info h3 a
-{    
+{
      text-decoration: none;
 
 }

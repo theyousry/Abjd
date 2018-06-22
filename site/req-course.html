@@ -7,9 +7,9 @@
   <title> أبجد | طلب كورس </title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/sign-up.css">  
-  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="dist/css/style.min.css">
+  <link rel="stylesheet" href="dist/css/sign-up.min.css">
+  <link rel="stylesheet" href="dist/css/animate.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="images/icon.ico">
 
 
@@ -21,7 +21,7 @@
         <div class="container">
         <div class="clearfix"></div>
 
-        <a class="navbar-brand navbar-right" href="index.html">
+        <a class="navbar-brand navbar-right" href="index.php">
         <img alt="Brand" style="display: inline-block;  height: 800%; margin-top: -46px" src="images/Logo3.png">
         </a>
          <div class="navbar-header">
@@ -37,12 +37,12 @@
 
       <!-- toggling -->
       <div class="collapse navbar-collapse" id="abjaaad">
-          
+
           <ul class="nav navbar-nav navbar-left">
-              <li class="signin"><a href="sign-up.html">تسجيل <i class="fa fa-user"></i></a></li>
-              <li><a href="log-in.html">دخول <i class="fa fa-sign-in"></i></a></li>
-              <li><a href="about.html" style="line-height:25px;">عن أبجد</a></li>
-                    
+            <li class="signin"><a href="registration.html">تسجيل <i class="fa fa-user"></i></a></li>
+            <li><a href="log-in.php">دخول <i class="fa fa-sign-in"></i></a></li>
+            <li><a href="about.html" style="line-height:25px;">عن أبجد</a></li>
+
           </ul>
       </div><!-- /.navbar-collapse -->
      </div><!-- /.container -->
@@ -56,19 +56,19 @@
     <form action="/action_page.php" >
         <div class="form-container">
 
-              
+
                 <label> البريد الإلكتروني </label>
                 <input type="text" name="email" required>
 
                 <label> نوع الكورس </label>
 
-                <select name="course-type" class="select-courseType"> 
+                <select name="course-type" class="select-courseType">
                   <option> البرمجة </option>
                   <option> التصميم</option>
                   <option> شبكات الحاسب</option>
                   <option> علوم الحاسب </option>
                   <option> قواعد البيانات </option>
-                  <option> تطوير الويب </option>                  
+                  <option> تطوير الويب </option>
                   <option> أنظمة التشغيل </option>
                   <option> أمن المعلومات </option>
                   <option> الإدراة </option>
@@ -78,7 +78,7 @@
                 <input type="text" name="req-course" required>
 
 
-               
+
                 <button class="wow tada " data-wow-duration="1.2s" > اطلب  </button>
         </div>
     </form>
@@ -113,7 +113,7 @@
 
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="dist/js/main.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script> new WOW().init(); </script>
 
