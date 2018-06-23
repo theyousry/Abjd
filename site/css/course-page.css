@@ -3,7 +3,7 @@ h3 {
     font-size: 18px
 }
 
-.intro-course 
+.intro-course
 {
     margin: 50px
 }
@@ -14,13 +14,13 @@ h3 {
     background-color: #2980b9;
     width: 100%;
     margin: auto;
-    
+
 }
 
 .nav-tabs{
 
     border: none;
-    margin : 5px 265px 5px 154px
+    margin : 5px 200px 5px 154px
 
 }
 
@@ -37,7 +37,7 @@ h3 {
     color: #000;
 }
 .nav-tabs a {
-    font-size: 20px;    
+    font-size: 20px;
     color: #000
 }
 .nav > li > a:focus, .nav > li > a:hover
@@ -50,21 +50,21 @@ h3 {
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active  {
 
-    background-color: #2980b9;  
+    background-color: #2980b9;
     color:#fff;
     border:none;
-   
+
 }
 
 
-.checked 
+.checked
 {
     color:#d8c92f;
 }
 
 h4 { padding: 10px ; margin: 50px 124px;}
 
-.cont 
+.cont
 {
     background-color: #fff;
     border: 1px solid  rgb(185, 182, 182);
@@ -73,15 +73,15 @@ h4 { padding: 10px ; margin: 50px 124px;}
     border-radius: 10px;
     box-shadow: 5px 5px 2px   #ddd ;
     overflow: hidden;
-    
+
 }
 
 .cont h3 { margin : 50px  }
 
 .lecs-list {margin:40px 12px; }
 
-.lecs-list a 
-{ 
+.lecs-list a
+{
     display: block;
     font-size: 16px;
     margin: 0px 60px ;
@@ -98,11 +98,11 @@ h4 { padding: 10px ; margin: 50px 124px;}
 
 .ques h4
  {
-    padding :20px ; 
+    padding :20px ;
     margin: 30px
 }
 
-.questions 
+.questions
 {
     padding-bottom: 20px
 }
@@ -146,7 +146,7 @@ h4 { padding: 10px ; margin: 50px 124px;}
 {
     margin-top: 100px
 }
-.inst img 
+.inst img
 {
     height: 273px;
     width: 233px;
@@ -161,48 +161,48 @@ h4 { padding: 10px ; margin: 50px 124px;}
 {
 
     .nav-tabs{
-      
+
         margin: 5px 20px ;
-        
+
         }
-        
+
     .nav-tabs li {
-        
+
         padding: 3px;
         margin: 3px -3px;
         font-size: 15px;
         }
-    
+
     .nav-tabs a {
 
-    font-size: 15px;    
+    font-size: 15px;
     }
 
     h4 { font-size: 16px ; margin: 30px}
-    
-    .cont 
+
+    .cont
     {
         width: 90%;
     }
-    
+
     .cont h3 { margin : 20 ; font-size: 16px  }
-    
+
     .lecs-list {margin:20px;}
-    
-    .lecs-list a 
-    { 
+
+    .lecs-list a
+    {
         font-size: 14px;
         margin: 0px 40px ;
         padding: 10px ;
-       
+
     }
 
     .ques h4
     {
        margin: 20px
    }
-  
-   
+
+
    .search-group
    {
     width: 154%;
@@ -217,12 +217,70 @@ h4 { padding: 10px ; margin: 50px 124px;}
 
    .send
    {
-       margin: 150px auto 50px ;  
+       margin: 150px auto 50px ;
        width: 40%;
        font-size: 16px;
    }
 }
 
+.rating {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-size:20px;
+    color: #FFCA00;
+}
+.rating-star {
+    padding: 0 5px;
+    margin: 0;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-bottom: -5px;
+}
+.rating-star:after {
+    position: relative;
+    font-family: FontAwesome;
+    content:'\f006';
+}
 
+.rating-star.checked ~ .rating-star:after,
+.rating-star.checked:after {
+    content:'\f005';
+}
 
+.rating:hover .rating-star:after {content:'\f006';}
 
+.rating-star:hover ~ .rating-star:after,
+.rating-star:hover:after {
+    content:'\f005' !important;
+}
+
+.love {
+    overflow: hidden;
+    font-size:20px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: -5px;
+}
+.heart {
+    cursor: pointer;
+  }
+.heart:after {
+    font-family: FontAwesome;
+    content:'\f004';
+}
+
+.heart.checked ~ .heart:after,
+.heart.checked:after {
+    content:'\f004';
+}
+
+.love:hover .heart:after {content:'\f004';}
+
+.heart:hover ~ .heart:after,
+.heart:hover:after {content:'\f004';
+color: red;}
+.fav {
+    color: red;
+}

@@ -66,18 +66,23 @@
     <div class="ul-nav row">
         <ul class="nav nav-tabs">
 
-            <li class="col-lg-1 col-md-2 col-sm-3 col-xs-6"> <i class="fa fa-heart"></i> </li>
+          <li class="col-lg-1 col-md-2 col-sm-3 col-xs-6">
+               <div class="love">
+                 <span class="heart"></span>
+               </div>
+           </li>
             <li class="col-lg-2 col-md-4 col-sm-3 col-xs-6"><a data-toggle="tab" href="#lecs" > المحاضرات </a></li>
             <li class="col-lg-2 col-md-4 col-sm-3 col-xs-6"><a data-toggle="tab" href="#ques" > الأسئلة </a></li>
             <li  class="col-lg-2 col-md-4 col-sm-2 col-xs-6"><a data-toggle="tab" href="#instructor"> المحاضر </a></li>
-            <li class="col-lg-3 col-md-6 col-sm-12 col-xs-12"> تقيميك
-
-            <span class="fa fa-star checked" style="padding-right: 10px"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked" ></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-
+            <li class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+              <span> تقييمك </span>
+                <div class="rating">
+                    <span class="rating-star" data-value="5"></span>
+                    <span class="rating-star" data-value="4"></span>
+                    <span class="rating-star" data-value="3"></span>
+                    <span class="rating-star" data-value="2"></span>
+                    <span class="rating-star" data-value="1"></span>
+                </div>
              </li>
 
          </ul>
