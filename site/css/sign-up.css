@@ -97,6 +97,9 @@ button:hover {
     margin: 30px 6px;
 
 }
+.courses-btn {
+    margin-right: 18%;
+}
 
  @media (max-width: 768px)
  {

@@ -124,6 +124,10 @@ padding: 5%;
 }
 
 }
+.padd{
+padding: 46px 0;
+}
+
 /*for tablet*/
 
 @media (max-width: 768px) {

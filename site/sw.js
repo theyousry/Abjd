@@ -5,7 +5,7 @@ self.addEventListener('install', event => {
         '/',
         'images/icon.ico',
         'index.php',
-        'log-in.php',
+        'login.html',
         'register.php',
         'sign-up.php',
         'about.html',

@@ -38,7 +38,7 @@
 
         <ul class="nav navbar-nav navbar-left">
           <li class="signin"><a href="registration.html">تسجيل <i class="fa fa-user"></i></a></li>
-          <li><a href="log-in.php">دخول <i class="fa fa-sign-in"></i></a></li>
+          <li><a href="login.html">دخول <i class="fa fa-sign-in"></i></a></li>
           <li><a href="about.html" style="line-height:25px;">عن أبجد</a></li>
 
         </ul>
@@ -60,13 +60,20 @@
           </div>
         <span class="learn"><h1 class="wow rubberBand" data-wow-duration="1.5s">ماذا تريد أن تتعلم ؟</h1></span>
 
+
+        <!-- <div class='embed-responsive embed-responsive-4by3'>
+            <iframe id="hyperRedirect" class='embed-responsive-item' src='https://www.youtube.com/embed/mljzPB8WvuY?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>
+
+          </div> -->
         <!-- search -->
+
         <div class="search-group input-group wow bounceInDown">
           <input class="search-input " type="text" placeholder="ابحث عن كورس ..."/>
           <button class="button button-brand-primary button-search">ابحث</button>
         </div>
-        <!-- end search -->
 
+        <!-- end search -->
+        <!-- <div class="row padd"> -->
         <div class="row">
           <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-3 wow bounceInLeft">
             <i class="fa fa-wifi fa-3x"></i>
@@ -107,7 +114,7 @@
             <div class='icon'>
               <div class='image'></div>
               <div class='info'>
-                <h3 class='title'><a href='categories.html'>قواعد بيانات</a></h3>
+                <h3 class='title'><a href='./course-pages/course-page-10.php'>قواعد بيانات</a></h3>
                 <p>
                   قواعد البيانات هي مجموعة بيانات مرتبة، بشكل منطقي وتسلسلي واضح، تربطها علاقات رياضية منطقية، تترتب على شكل جداول من جدول فأكثر                </p>
                 <div class='more'>
@@ -178,7 +185,7 @@
             <div class='icon'>
               <div class='image'></div>
               <div class='info'>
-                <h3 class='title'><a href='categories.html'>الإدارة</a></h3>
+                <h3 class='title'><a href='./course-pages/course-page-12.php'>الإدارة</a></h3>
                 <p>
                   فرع من العلوم الاجتماعية، هي عملية التخطيط والتنظيم والتنسيق والتوجيه والرقابة على الموارد المادية والبشرية للوصول إلى أفضل النتائج بأقصر                </p>
                 <div class='more'>
@@ -194,11 +201,11 @@
             <div class='icon'>
               <div class='image'></div>
               <div class='info'>
-                <h3 class='title'><a href='categories.html'>تطوير الويب</a></h3>
+                <h3 class='title'><a href='./course-pages/course-page-11.php'>تطوير الويب</a></h3>
                 <p>
                   كورسات في تطوير الويب وأنظمة إدارة المحتوى مثل الووردبريس وبلوجر وجوملا وشروحات مختلفة لمدراء المواقع ومطورين الويب                </p>
                 <div class='more'>
-                  <a href='./course-pages/course-page-11.php' title='عرض ماتريل ومحتويات التصنيف'><i class='fa fa-plus'></i> عرض المواد
+                  <a href='categories.html' title='عرض ماتريل ومحتويات التصنيف'><i class='fa fa-plus'></i> عرض المواد
                   </a>
                 </div>
               </div>

@@ -1,6 +1,5 @@
 <?php
-$connection = mysqli_connect("localhost", "root", "","college"); // Establishing connection with server..
-/*$db = mysql_select_db("college", $connection); // Selecting Database.*/
+$connection = mysqli_connect("localhost", "root", "", "college");
 $email=$_POST['email1']; // Fetching Values from URL.
 $password= sha1($_POST['password1']); // Password Encryption, If you like you can also leave sha1.
 // check if e-mail address syntax is valid or not
@@ -18,4 +17,6 @@ echo "Email or Password is wrong...!!!!";
 }
 }
 mysqli_close ($connection); // Connection Closed.
+
+
 ?>

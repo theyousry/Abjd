@@ -41,7 +41,7 @@
 
           <ul class="nav navbar-nav navbar-left">
             <li class="signin"><a href="../registration.html">تسجيل <i class="fa fa-user"></i></a></li>
-            <li><a href="../log-in.php">دخول <i class="fa fa-sign-in"></i></a></li>
+            <li><a href="../login.html">دخول <i class="fa fa-sign-in"></i></a></li>
             <li><a href="../about.html" style="line-height:25px;">عن أبجد</a></li>
 
           </ul>
