@@ -29,4 +29,7 @@
 $('.heart').click(function() {
   $(this).parents('.love').find('.heart').removeClass('checked');
   $(this).addClass('fav');
-});  
+});
+$('.send').click(function() {
+  alert("لقد تم ارسال الرسالة!! شكراً لك");
+});

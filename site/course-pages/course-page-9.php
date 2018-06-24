@@ -123,7 +123,7 @@
               <div>
                 <h4 style="display:inline-block"> اسأل سؤال </h4>
                 <textarea class="que"> </textarea>
-                <button type="button" class="send"> إرسال </button>
+                <button type="button" class="send" action="" method="POST"> إرسال </button>
               </div>
             </div>
         </div>

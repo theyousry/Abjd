@@ -1,3 +1,6 @@
+$('.send').click(function() {
+  alert("لقد تم ارسال الطلب!! شكرا لك");
+});
 $('#nav').affix({
   offset: {
     top: $('#heeey').offset().top
